@@ -8,11 +8,6 @@ class Detect {
 
   public $url = 'http://bimaplus.tri.co.id';
     
-  /**
-   * noTri
-   *
-   * @return void
-   */
   public function noTri() {
     $url = $this->url;
     $ch = curl_init();
